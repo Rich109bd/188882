@@ -57,13 +57,13 @@ def stats(update, context):
 
 def start(update, context):
     if config_dict['ENABLE_DM']:
-        start_string = 'Welcome | Dr Strange is ready for you.\n' \
+        start_string = 'Welcome | HmxNsfwBot is ready for you.\n' \
                        'Thanks for starting me in DM.\n' \
                        'Now I can send all of your files and links here.\n'
     else:
         start_string = 'Hey, Welcome dear. \n' \
                        'I can Mirror all your links To Google Drive! \n' \
-                       'Created With Love by @Z_Mirror . \n'
+                       'Created With Love by @Hmxupdates . \n'
     sendMessage(start_string, context.bot, update.message)
 
 def restart(update, context):
